@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             SizedBox(height: 30),
             Text(_timeString, style: TextStyle(color: Colors.white, fontSize: 160, fontWeight: FontWeight.bold),),
-            Text( _currentInspiration.isEmpty ? 'No inspiration yet' : _currentInspiration, style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),),
+            Text( _currentInspiration.isEmpty ? 'No inspiration yet' : _currentInspiration, style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold), textAlign: TextAlign.center, maxLines: 2,),
           ],
         ),
       ),

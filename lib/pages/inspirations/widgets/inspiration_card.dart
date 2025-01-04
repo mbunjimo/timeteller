@@ -14,7 +14,8 @@ class InspirationCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 2,
+      elevation: 1,
+      color: Colors.white,
       margin: EdgeInsets.symmetric(vertical: 4, horizontal: 8),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
